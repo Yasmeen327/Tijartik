@@ -46,9 +46,9 @@ The pipeline runs nightly at midnight (Cairo time) via Azure Scheduler. Every ru
 
 The warehouse follows a Galaxy Schema (multiple fact tables sharing conformed dimensions):
 
-**Fact tables:** `fact_sales`, `fact_shipments`, `fact_returns`, `fact_events`, `fact_reviews`, `fact_payments`
+**Fact tables:** `fact_sales`, `fact_shipments`, `fact_returns`, `fact_events`
 
-**Dimension tables:** `dim_date`, `dim_customer`, `dim_product` (SCD2), `dim_seller`, `dim_location`, `dim_promotion`, `dim_payment_bridge`, `dim_category`
+**Dimension tables:** `dim_date`, `dim_customer`, `dim_product` (SCD2), `dim_seller`, `dim_location`, `dim_promotion`, `dim_payment_bridge`, `dim_reviews`
 
 The OLTP source was designed from scratch — conceptual ERD, logical schema, and physical deployment on Azure SQL — with data generated via Python (Faker, pandas) adapted to Egyptian cities, regions, categories, and naming conventions.
 
