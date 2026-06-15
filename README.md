@@ -31,7 +31,7 @@ Kaggle (Olist Dataset)
             └── Databricks ELT Pipeline
                 ├── Bronze  — raw ingestion, immutable
                 ├── Silver  — cleaning, validation, business rules
-                └── Gold    — star schema, fact + dimension tables
+                └── Gold    — galaxy schema, fact + dimension tables
                     └── Azure Data Factory
                         └── Azure SQL Reporting DB
                             ├── Power BI (20 dashboards)
