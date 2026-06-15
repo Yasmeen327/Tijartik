@@ -1,4 +1,4 @@
-# Tijartik
+# 🛒 Tijartik
 
 A real-time data intelligence platform for the Egyptian e-commerce market, built as an ITI graduation project by the Baraka Team (Tanta, Power BI Development Track).
 
